@@ -1,0 +1,73 @@
+This	 is where the intro goes
+
+
+--go to your directory
+ -- git init DemoApp -- initializes a git local repo in the DemoApp Location
+ -- Use notepad++ to create different files that you want to store in your DemoApp
+ -- git add "file name" to add your file to the git repo -- staged on the git repo
+ -- git commit -m " message"
+ 
+ --if you have a bunch of files in your location instead of typing out each file name
+	-- Just do add . to add all the files
+
+-- Using git hub
+	--Through the git cmd 
+		-- Navigate to the folder location
+	-- Ask git if there is a remote already configured
+		--git remote -v  -- if no response then nothing setup
+		
+	-- git remote add origin https://github.com/falkowa42/secondRepo.git -- this is my repo on github
+	
+	--git remote -v
+		-- it will create two origins a fetch and a push
+	git push -u origin master -- pushes local content to the v- reference
+		-- then will have to login
+		-- my login first failed then had to SSH in 
+	-- after the User Name / PW goes through it loaded my files to github.
+	
+	
+	-- setup SSH Key -- with Github
+		-- This is just as secure but quicker as we will not have to keep putting in our creds
+		
+	-- ssh-keygen -t rsa -b 4096 -C "falkowa42@gmail.com"
+		-- will ask a series of questions -- such as entering a pass phrase
+		-- places the key at the location you accepted when calling the command
+			-- go to the key -- open the pub file up with notepad++ 
+			-- copy the whole key -- > go to your github account --> go to profile -- > settings --> SSH -- > paste in key. 
+	
+	-- README files are written in Markdown Syntax 
+		-- # This is a H1 Header
+		-- ## This is a H2
+			-- * Red 
+			-- * Green
+			-- * Blue
+				 -- LIST
+				 
+			-- More information on MarkDown Language -- https://daringfireball.net/projects/markdown/syntax
+			
+	-- clone 
+		-- git clone git@github.com:falkowa42/fuzzy-spoon.git
+			-- got this using the SSH from github	
+	
+	-- git push origin master	
+		--Pushing my local master to github -- this is aftere downloading the clone
+	
+	--made updates in github
+		-- Now my local is not up-to-date
+	--Git fetch just downloads the files onto the local
+	-- Git Pull does a fast forward of the code out on the repo into my local
+	
+	
+	-- added in updates locally and on the github
+		
+		-- next steps
+		
+		-- git status 
+			-- see status that i have made a change locally 
+			-- git add . -- adds in those local changes
+			-- git push origin master 	-- this is trying to update the github repo	
+				-- I get an error stating I do not have the most up-to-date code that I am trying to push
+				
+		-- Do git pull now to get the changes from github
+		
+		--
