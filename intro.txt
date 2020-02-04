@@ -101,6 +101,11 @@ Starting more notes on next course -- 02/03/2020
 	
 	-- git push -u [origin] [branch] -- pushes in the branch
 	
+	-- needed to push all the changes from add-installation prior to being about to get back to the master
+	-- to get back to the master from the branch in 
 	
+	-- check out git checkout master
+		--So it all seems to work with the commands if you want to get back to something
+		you need to check it out.
 	
 	
