@@ -102,6 +102,88 @@ Starting more notes on next course -- 02/03/2020
 	
 	-- git push -u [origin] [branch] -- pushes in the branch
 	
+	-- Just search for BASH and use that NODE to perform the updates to Git
 	
+	
+	--Branching locally
+	
+	--Create a new branch -- use checkout because that will not only create the branch for you but also transfer you into it
+		-- This is why using the bash is so nice becuase it tells you what branch you are in
+		
+		-- in the example created a new text file -- notepad++ installations.txt
+			--Change the file
+		-- git  add . to add the file to the branch
+		-- git commit -- commits the change to the file locally
+		-- push the new file to the branch
+		-- git push -u origin add-installation -- git push -u [origin] [name of branch]
+	--
+
+		PULL REQUESTS
+		
+	-- 
+	
+	-- Start with Pull request 
+		-- Do commits and add comments
+	
+	--Save this module because this is very informative when it comes to Pull requests
+		--Essentially what Pull means is to pull the changes back into the master
+		--Some times you do not want to have the master as the default but leave it for 
+			now until you get into other cases.
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	
