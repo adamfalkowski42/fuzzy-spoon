@@ -97,7 +97,8 @@ Starting more notes on next course -- 02/03/2020
 --Branching locally
 	--git branch [branch-name]
 	
-	--git check out [branch-name] -- checks out the branch
+	--git check out -b [branch-name] -- checks out the branch -- automatically switches to that branch 
+		-- this I think is the preferred way to check out a branch
 	
 	-- git push -u [origin] [branch] -- pushes in the branch
 	
