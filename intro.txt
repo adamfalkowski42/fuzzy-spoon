@@ -70,4 +70,22 @@ This	 is where the intro goes
 				
 		-- Do git pull now to get the changes from github
 		
-		-- Goign try out this change here
+		-- Going try out this change here
+		
+		
+		
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Starting more notes on next course -- 02/03/2020
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-- How to add some one access to the project
+	-- Go to settings
+	-- GO into github and to the collaborators section 
+		-- Search for user name -- add as collaborator -- once this occurs the user will get an email they have been added	-- there is also a link to copy 
+		
+	-- User should now have the ability to push changes to the master branch
+--
