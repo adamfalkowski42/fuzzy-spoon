@@ -88,4 +88,19 @@ Starting more notes on next course -- 02/03/2020
 		-- Search for user name -- add as collaborator -- once this occurs the user will get an email they have been added	-- there is also a link to copy 
 		
 	-- User should now have the ability to push changes to the master branch
---
+--To review the process
+	-- Add . -- stages the changes
+	-- Commit commits to the changes to your local
+	--Push to origin master pushes it to git
+	
+	
+--Branching locally
+	--git branch [branch-name]
+	
+	--git check out [branch-name] -- checks out the branch
+	
+	-- git push -u [origin] [branch] -- pushes in the branch
+	
+	
+	
+	
